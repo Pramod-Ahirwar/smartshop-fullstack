@@ -1,3 +1,4 @@
+console.log("App.js loaded");
 fetch("https://smartshop-fullstack2.onrender.com/api/products")
   .then(res => res.json())
   .then(data => {
