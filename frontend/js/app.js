@@ -1,4 +1,4 @@
-fetch("https://fullstack2.onrender.com/api/products")
+fetch("https://smartshop-fullstack2.onrender.com/api/products")
   .then(res => res.json())
   .then(data => {
     const d = document.getElementById("products");
